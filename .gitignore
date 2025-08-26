@@ -115,6 +115,12 @@ dmypy.json
 !attachments/README.md
 !assets/README.md
 
+# Email tracking
+sent_emails.log
+
+# Templates
+template.html
+
 # Publishing scripts (contains sensitive PyPI credentials)
 publish_to_pypi.py
 pypi_config.py
