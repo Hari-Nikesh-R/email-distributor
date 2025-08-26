@@ -111,7 +111,6 @@ dmypy.json
 # assets/
 
 # But keep the example files
-!emails.csv
 !attachments/README.md
 !assets/README.md
 
@@ -120,6 +119,9 @@ sent_emails.log
 
 # Templates
 template.html
+
+# Email lists (contains sensitive recipient data)
+emails.csv
 
 # Publishing scripts (contains sensitive PyPI credentials)
 publish_to_pypi.py
