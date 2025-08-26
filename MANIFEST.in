@@ -1,0 +1,21 @@
+include README.md
+include LICENSE
+include CONTRIBUTING.md
+include CODE_OF_CONDUCT.md
+include requirements.txt
+include env_example.txt
+include template.html
+include emails.csv
+include test_setup.py
+
+recursive-include assets *.png *.jpg *.jpeg *.gif *.webp *.md
+recursive-include attachments *.pdf *.doc *.docx *.txt *.md
+
+global-exclude *.pyc
+global-exclude *.pyo
+global-exclude *.pyd
+global-exclude __pycache__
+global-exclude .git*
+global-exclude .env
+global-exclude venv/
+global-exclude .DS_Store

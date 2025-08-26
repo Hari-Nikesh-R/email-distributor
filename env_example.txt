@@ -1,0 +1,15 @@
+# Gmail SMTP Configuration
+# Replace with your actual Gmail credentials
+
+# Your Gmail address
+GMAIL_EMAIL=your_email@gmail.com
+
+# Your Gmail App Password (NOT your regular password)
+# To get an App Password:
+# 1. Enable 2-Factor Authentication on your Google account
+# 2. Go to Google Account settings > Security > App passwords
+# 3. Generate a new app password for "Mail"
+GMAIL_APP_PASSWORD=your_app_password_here
+
+# Note: Never commit your actual .env file to version control
+# This file is just an example template
