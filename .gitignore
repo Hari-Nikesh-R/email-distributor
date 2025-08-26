@@ -117,12 +117,6 @@ dmypy.json
 # Email tracking
 sent_emails.log
 
-# Templates
-template.html
-
-# Email lists (contains sensitive recipient data)
-emails.csv
-
 # Publishing scripts (contains sensitive PyPI credentials)
 publish_to_pypi.py
 pypi_config.py
